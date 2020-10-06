@@ -1,1 +1,10 @@
-This is a repository for creating docker images
+gantt
+dateFormat  YYYY-MM-DD
+title Adding GANTT diagram to mermaid
+excludes weekdays 2020-10-06
+
+section A section
+Completed task            :done,    des1, 2020-10-06,2020-10-08
+Active task               :active,  des2, 2020-10-09, 3d
+Future task               :         des3, after des2, 5d
+Future task2               :         des4, after des3, 5d
